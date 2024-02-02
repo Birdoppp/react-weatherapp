@@ -1,6 +1,6 @@
 import React , { useContext }from 'react';
 import './WeatherDetail.css';
-import { TempContext } from '../../context/TempContextProvider';
+import { TempContext } from '../../Context/TempProvider'
 import iconMapper from '../../helpers/iconMapper';
 
 function WeatherDetail( {
